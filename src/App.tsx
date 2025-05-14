@@ -25,7 +25,7 @@ function App() {
     <>
       <div className="card-container">
         {memos.map((memo) => (
-          <MyCard key={memo.id} {...memo} />
+          <MyCard {memo} />
         ))}
       </div>
     </>
